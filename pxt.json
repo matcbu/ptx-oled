@@ -1,18 +1,26 @@
 {
     "name": "oled",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "adafruit 128x64 oled driver",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.cpp",
+        "shims.d.ts",
+        "Adafruit_GFX.cpp",
+        "Adafruit_GFX.h",
+        "Adafruit_SSD1306.cpp",
+        "Adafruit_SSD1306.h",
+        "glcdfont.c",
+        "enums.d.ts",
+        "extension.cpp",
+        "extension.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": false
+    "public": true
 }

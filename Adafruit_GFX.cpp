@@ -42,7 +42,8 @@ by James Kidd 2014
 #include <math.h>
 #include <stdlib.h>
 #include <stddef.h>
- #define pgm_read_byte(addr) (*(const unsigned char *)(addr))
+
+#define pgm_read_byte(addr) (*(const unsigned char *)(addr))
 
 
 Adafruit_GFX::Adafruit_GFX(int16_t w, int16_t h):

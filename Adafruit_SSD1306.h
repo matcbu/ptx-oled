@@ -22,7 +22,7 @@ All text above, and the splash screen must be included in any redistribution
 #define _Adafruit_SSD1306_H_
 
 #include "Adafruit_GFX.h"
-#include "MicroBit.h"
+#include "pxt.h"
 
 #define BLACK 0
 #define WHITE 1

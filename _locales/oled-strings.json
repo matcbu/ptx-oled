@@ -1,0 +1,7 @@
+{
+  "OLED.demo|block": "Demo",
+  "OLED|block": "OLED",
+  "oled|block": "oled",
+  "{id:category}OLED": "OLED",
+  "{id:category}Oled": "Oled"
+}

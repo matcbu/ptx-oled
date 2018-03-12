@@ -8,7 +8,11 @@
                 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include",
                 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
                 "/usr/include",
-                "${workspaceRoot}"
+                "${workspaceRoot}",
+                "${workspaceRoot}/",
+                "${workspaceRoot}/microbit/inc",
+                "${workspaceRoot}/microbit/microbit-dal/mbed-dev-bin",
+                "${workspaceRoot}/pxt_modules/core"
             ],
             "defines": [],
             "intelliSenseMode": "clang-x64",
