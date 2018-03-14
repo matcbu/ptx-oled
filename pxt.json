@@ -15,9 +15,7 @@
         "Adafruit_SSD1306.cpp",
         "Adafruit_SSD1306.h",
         "glcdfont.c",
-        "enums.d.ts",
-        "extension.cpp",
-        "extension.ts"
+        "enums.d.ts"
     ],
     "testFiles": [
         "test.ts"
